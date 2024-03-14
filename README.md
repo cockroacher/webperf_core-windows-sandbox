@@ -20,10 +20,16 @@ Windows Sandbox is a virtual machine built into Windows and can be used instead 
 
 - Download this repo.
 - Place the Sandboxed folder from this repo (and all content) into c:\Sandboxed\ on your host system.
-- Open "WebperfCoreSandbox.wsb" for this repo by double clicking it, a virtual machine should now start.
-- To make it more accessible for later use, pin it to your taskbar.
 - Now lets setup webperf_core in correct folder (on your host/computer).
   - [Download and install GitHub Desktop](https://desktop.github.com/)
   - Start and Login to Github Desktop
   - Clone [webperf_core](https://github.com/Webperf-se/webperf_core) into folder: "C:\Sandboxed\Projects\webperf_core\"
- 
+
+# Usage
+
+- Open "WebperfCoreSandbox.wsb" for this repo by double clicking it, a virtual machine should now start.
+- To make it more accessible for later use, pin it to your taskbar.
+- Double click "RunMeFirst.cmd" and let it finish (It will install python, vscode, browsers and more)
+- Double click "RunMeSecond.cmd" and let it finish (It will install npm and pip dependencies)
+
+You are now ready to play with webperf_core or develop new feature(s).
