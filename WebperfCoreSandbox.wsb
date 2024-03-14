@@ -1,0 +1,20 @@
+<Configuration>
+	<AudioInput>Disable</AudioInput>
+	<VideoInput>Disable</VideoInput>
+	<ProtectedClient>Enable</ProtectedClient>
+	<PrinterRedirection>Disable</PrinterRedirection>
+	<ClipboardRedirection>Disable</ClipboardRedirection>
+	<MemoryInMB>12288</MemoryInMB>
+	<MappedFolders>
+		<MappedFolder>
+			<HostFolder>C:\Sandboxed\Projects</HostFolder>
+			<SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Projects</SandboxFolder>
+			<ReadOnly>false</ReadOnly>
+		</MappedFolder>
+		<MappedFolder>
+			<HostFolder>C:\Sandboxed\Desktop</HostFolder>
+			<SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop</SandboxFolder>
+			<ReadOnly>true</ReadOnly>
+		</MappedFolder>
+	</MappedFolders>
+</Configuration>
