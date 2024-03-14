@@ -15,8 +15,8 @@ Windows Sandbox is a virtual machine built into Windows and can be used instead 
 # Installation
 
 - Install Windows Sandbox
-  - Open "Turn Windows features on or of" by pressing "windows key" and then type "feat" ![test](https://github.com/cockroacher/webperf_core-windows-sandbox/blob/main/images/readme-turn-sandbox-on.png?raw=true)
-  - Find "Windows Sandbox" an make sure to check it, follow all steps and restart Windows. ![test](https://github.com/cockroacher/webperf_core-windows-sandbox/blob/main/images/readme-turn-windows-features-on-or-off.png?raw=true)
+  - Open "Turn Windows features on or of" by pressing "windows key" and then type "feat" ![test](https://github.com/cockroacher/webperf_core-windows-sandbox/blob/main/images/readme-turn-windows-features-on-or-off.png?raw=true)
+  - Find "Windows Sandbox" an make sure to check it, follow all steps and restart Windows. ![test](https://github.com/cockroacher/webperf_core-windows-sandbox/blob/main/images/readme-turn-sandbox-on.png?raw=true)
 
 - Download this repo.
 - Place the Sandboxed folder from this repo (and all content) into c:\Sandboxed\ on your host system.
